@@ -1,5 +1,5 @@
 host="sql6.freesqldatabase.com"
-user="sql6410213"
-password="GdeWcDcBxd"
-database="sql6410213"
+user="sql6410692"
+password="DHD7HJS6Yj"
+database="sql6410692"
 port=3306
