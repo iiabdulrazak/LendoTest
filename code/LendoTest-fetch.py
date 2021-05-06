@@ -1,8 +1,8 @@
+import sqlalchemy as db
 import pandas as pd
-import sqlalchemy
     
 # Create the engine to connect to the MySQL database,
-engine = sqlalchemy.create_engine('mysql://sql6410213:GdeWcDcBxd@sql6.freesqldatabase.com:3306/sql6410213')
+engine = db.create_engine('mysql://sql6410692:DHD7HJS6Yj@sql6.freesqldatabase.com:3306/sql6410692')
 # Read data from SQL table
 # we use read_sql_table to read the data using pandas commands
 sql_data = pd.read_sql_table('corona',engine)
@@ -31,6 +31,7 @@ sql_data_count = pd.read_sql(
 	parse_dates = ['date']
 	)
 
+#lets see the output!
 print(f'{sql_data_all}')
 print(f'\n\n{sql_data_col}')
 print(f'\n\n{sql_data_count}')
