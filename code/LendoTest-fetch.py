@@ -1,8 +1,9 @@
+import config as cf
 import sqlalchemy as db
 import pandas as pd
     
 # Create the engine to connect to the MySQL database,
-engine = db.create_engine('mysql://sql6410692:DHD7HJS6Yj@sql6.freesqldatabase.com:3306/sql6410692')
+engine = db.create_engine('mysql://cf.user:cf.password@sql6.freesqldatabase.com:3306/cf.database')
 # Read data from SQL table
 # we use read_sql_table to read the data using pandas commands
 sql_data = pd.read_sql_table('corona',engine)
