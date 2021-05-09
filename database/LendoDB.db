@@ -1,7 +1,0 @@
-create table `corona` (
-    `date` DATE,
-    `country` varchar(50) NOT NULL,
-    `confirmed` int(50) NOT NULL,
-    `recovered` int(50) NOT NULL,
-    `deaths` 	int(50) NOT NULL 
-    );
