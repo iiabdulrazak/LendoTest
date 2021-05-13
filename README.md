@@ -5,4 +5,4 @@ Solving Lendo Technical Test
 - Part Two: Analysis (https://github.com/pinocchioVirus/LendoTest/blob/main/ppt/airelines.pptx)
 - Part Three: Data Analysis Skils (https://github.com/pinocchioVirus/LendoTest/blob/main/data/Excel_Challenge_Test_Empty.xlsm)
 
-[![Lendo](img/lendo.png)](https://www.youtube.com/watch?v=2gWlWZ9TJgk "Lendo Company - Click to Watch!")
+[![Lendo Company](img/lendo.png)](https://www.youtube.com/watch?v=2gWlWZ9TJgk "Lendo Company")
