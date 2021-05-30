@@ -1,5 +1,5 @@
-host="sql6.freesqldatabase.com"
-user="sql6410935"
-password="GHh4XfMTfT"
-database="sql6410935"
+host="45.79.193.194"
+user="admin_team"
+password="Zaak1234@"
+database="corona"
 port=3306
