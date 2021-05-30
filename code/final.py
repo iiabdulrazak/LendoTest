@@ -7,9 +7,9 @@ from sqlalchemy import create_engine, MetaData, Table, Column, Integer, String, 
 
 #needed configuration and connection
 meta = MetaData()
+conn = MySQLdb.connect(host='172.105.154.40', user='AdminLiquidX', password='Zaak1234@', database='prodDB')
 cursor = conn.cursor()
-conn = MySQLdb.connect(host=cf.host, user=cf.user, password=cf.password, database=cf.database)
-engine = create_engine('mysql://sql6410935:GHh4XfMTfT@sql6.freesqldatabase.com:3306/sql6410935')
+engine = create_engine('mysql://AdminLiquidX:Zaak1234@@172.105.154.40:22/prodDB')
 
 #creating table
 corona = Table(
